@@ -1,0 +1,276 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(245, 248, 250, 1);
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  height: 20vh;
+  width: 100%;
+}
+
+.navbar {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar img {
+  width: 15%;
+}
+
+.nav-links {
+  position: initial;
+  width: 45%;
+  display: flex;
+  padding: 0px;
+  height: fit-content;
+  justify-content: space-between;
+}
+
+a.nav-links {
+  text-decoration: none;
+  list-style-type: none;
+  height: fit-content;
+  width: 15%;
+  color: black;
+}
+
+.nav-links li {
+  display: flex;
+  align-items: center;
+  padding: 1px 1px;
+  justify-content: center;
+}
+
+.nav-btn a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 25px;
+  position: initial;
+  width: 10%;
+  border: 1px solid rgba(100, 110, 122, 1);
+  background-color: #e0e6ea;
+  color: rgba(100, 110, 122, 1);
+  border: none;
+  border-radius: 7px;
+}
+
+.nav-line {
+  border: 1px solid #e0e6ea;
+  margin-inline: 50px;
+}
+
+main {
+  border: 1px solid #e0e6ea;
+  /* border-radius: 6px; */
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  border: none;
+}
+
+.way {
+  background-color: white;
+  margin-inline-start: 240px;
+  border-radius: 6px;
+  padding: 30px;
+  width: 60vw;
+}
+
+h1 {
+  font-weight: 600;
+  padding-block-end: 20px;
+}
+
+h1 + hr {
+  margin-inline-end: 30%;
+  margin-block-end: 20px;
+}
+
+.basic img {
+  width: 20px;
+  margin-inline-end: 10px;
+  vertical-align: middle;
+}
+
+.basic p  {
+  margin-block-end: 10px;
+}
+
+#name {
+  display: flex;
+  background-color: #CCD0D2;
+  border: none;
+  padding: 7px;
+}
+
+.az {
+  margin-block-start: 9px;
+}
+
+label.rightz {
+  position: relative;
+  top: -53.5px;
+  left: 300px;
+}
+
+.right {
+  position: relative;
+  top: -46px;
+  left: 300px;
+}
+
+.em {
+  position: relative;
+  top: -30px;
+}
+
+#email {
+  position: relative;
+  top: -5px;
+  left: -48px;
+  background-color:  #CCD0D2;
+  border: none;
+  padding: 7px;
+  margin-block-end: 20px;
+}
+
+.nav-line_1 {
+  margin-inline-end: 40%;
+  margin-block-end: 20px;
+}
+
+
+.payment img {
+  width: 20px;
+  margin-inline-end: 10px;
+  vertical-align: middle;    
+}
+
+.payment p {
+  margin-block-end: 20px;
+}
+
+.cv {
+  position: relative;
+  top: -14px;
+}
+
+input#card-number {
+  position: relative;
+  top: 15px;
+  left: -80px;
+  padding: 4px;
+  background-color: #CCD0D2;
+  border: none;
+  width: 50%;
+  word-spacing: 25px;
+}
+
+.buy-btn {
+  margin-block-start: 50px;
+  margin-inline-start: 60px;
+}
+
+.btn {
+  padding-inline: 20%;
+  padding-block: 10px;
+  color: white;
+  background-color: #038E7D;
+  border: none;
+}
+
+.need {
+  margin-block-start: 20px;
+  color: #646E7A;
+}
+
+
+
+.need img {
+  width: 20px;
+  margin-inline-end: 10px;
+  vertical-align: middle;  
+}
+
+.need button {
+  position: relative;
+  top: 30px;
+  left: -34%;
+  margin-block-end: 20px;
+  background-color: #566473;
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+  color: white;
+}
+
+.side {
+  position: absolute;
+  top:  130px;
+  right: 300px;
+}
+
+.side-content {
+  color: white;
+  background-color: #1179BF;
+  height: 87vh;
+  padding-inline-start: 20px;
+  margin-inline-end: -22px;
+}
+
+.side-content h2 {
+  padding-block: 10px;
+}
+
+.side-content p {
+  padding-block-end: 20px;
+}
+
+.currency {
+  vertical-align: top;
+}
+
+.price {
+  vertical-align: top;
+  font-size: 2em;
+}
+
+.unit {
+  vertical-align: bottom;
+}
+
+.down {
+  margin-block-start: 10px;
+}
+
+.um {
+  color: white;
+}
+
+.quote {
+  padding: 20px;
+  margin-inline-start: -20px;
+}
+
+.man img {
+  vertical-align: middle;
+  margin-inline-end: 10px;
+}
+
+.bottom {
+  position: relative;
+  top: 95%;
+  right: 500px; 
+  height: fit-content;
+}
